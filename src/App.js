@@ -3,6 +3,7 @@ import './App.css';
 import Counter from './Counter';
 import Greetings from './GreetingsProps';
 import Message from './MessageUseEffect';
+import DataFetcher from './DataFetcher';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Greetings name="Alice"/>
       <Greetings name="in WonderLand"/>
       <Message/>
+      <DataFetcher />
     </div>
   );
 }

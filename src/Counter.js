@@ -1,7 +1,7 @@
 import { useState } from "react"
 
 
-//state
+//How to use state
 const Counter = () => {
     // define state
     const [count, setCount] = useState(0)
